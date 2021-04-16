@@ -1,5 +1,5 @@
 import React from 'react';
-import FAIcon from 'react-native-vector-icons/FontAwesome5';
+// import FAIcon from 'react-native-vector-icons/FontAwesome5';
 import {Text} from 'react-native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 const Tab = createBottomTabNavigator();
@@ -30,7 +30,8 @@ export const BottomTabs = () => {
     <Tab.Navigator
       screenOptions={({route}) => ({
         tabBarIcon: ({focused, color, size}) => {
-          return <FAIcon name={getTabIcon(route.name)} />;
+          // return <FAIcon name={getTabIcon(route.name)} />;
+          return <Text>{route.name}</Text>;
         },
       })}
       tabBarOptions={{

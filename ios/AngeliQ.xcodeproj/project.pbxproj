@@ -145,7 +145,6 @@
 				C64CEF6C746BC1D6E7CCE946 /* Pods-AngeliQ-AngeliQTests.debug.xcconfig */,
 				896E666825637D4CB1E5B8A3 /* Pods-AngeliQ-AngeliQTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -485,6 +484,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 87U63MR5Q5;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = AngeliQ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -511,6 +511,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 87U63MR5Q5;
 				INFOPLIST_FILE = AngeliQ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
